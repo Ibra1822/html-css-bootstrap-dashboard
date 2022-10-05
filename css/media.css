@@ -17,36 +17,16 @@
     display: none;
   }
 
-.ib-head-mai{
-    height: 175px;
+  th .ib-none-m{
+    display: block !important;
   }
 
-.con_col{
-  display: flex;
-  flex-direction: column;
-}
+  .aside-down span{
+    display: none;
 
-.ib_col_left{
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.left_top{
-  margin-bottom: 20px;
-}
-
-.left_bottom{
-
-}
-
-.ib_col_right{
-  width: 100%;
-}
-
-.right_top{
-  margin-bottom: 20px;
-}
+  }
   
+
 }
 
 
@@ -54,6 +34,10 @@
 
   .aside{
     min-width: 50px;
+  }
+
+  th .ib-none-m{
+    display: none;
   }
 
   
