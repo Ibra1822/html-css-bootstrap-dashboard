@@ -1,5 +1,21 @@
-@media screen and (max-width:780px) {
+@media screen and (max-width:992px) {
 
+  .ib-act{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+   .ib-act i{
+    display: block;
+    font-size: 30px;
+    
+  }
+
+  .aside-up li{
+    display: none;
+  }
 
 .ib-head-mai{
     height: 175px;
@@ -30,5 +46,15 @@
 .right_top{
   margin-bottom: 20px;
 }
+  
+}
+
+
+@media screen and (max-width:768px) {
+
+  .aside{
+    min-width: 50px;
+  }
+
   
 }

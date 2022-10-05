@@ -14,6 +14,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/media.css">
@@ -25,22 +29,154 @@
 
 <div class="ib-cont">
 
-<header class="bg-light debug"></header>
+<header class="bg-light">
+
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+      <div class="col-2 d-flex">
+        <img class="ib-logo d-none d-lg-block" src="img/logo.svg" alt="">
+        <img class="ib-mobile-logo d-lg-none text-center" src="img/mobile-logo.png" alt="">
+      </div>
+      <div class="col-8  ">
+
+        <div class="input-group input-group-sm mb-3 ib-se ">
+          <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-search"></i></span>
+          <input type="text" placeholder="Prova a cercaare 'Quanti ragazzi di classe 75 mangiano la pizza?'" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        
+      </div>
+      <div class="col-2 d-flex align-items-center">
+        <div class="in me-4 d-none d-lg-block">
+
+         <a href=""><i class="bi bi-list me-1"></i></a> 
+         <a href=""><i class="bi bi-question-circle-fill me-2"></i></a> 
+         <a href=""><i class="bi bi-three-dots-vertical me-2"></i></a> 
+
+        </div>
+
+       <a href=""> <i class="bi bi-bell-fill ib-camp "></i></a>
+
+      </div>
+    </div>
+  </div>
+  
+</header>
+
+<!-- FINE HEADER  -->
 
 
 <div class="ib-mai-cont">
 
+<div class="aside debug">
+  
+    <ul class="ib-act">
+      <li><a href=""><i class="bi bi-house-door-fill d-lg-none "></i> </a></li>
+      <li><a href=""> <i class="bi bi-reception-3 d-lg-none "></i></a></li>
+      <li><a href=""> <i class="bi bi-bar-chart-line-fill d-lg-none "></i> </a></li>
+    </ul>
+   
+   
+<div class="aside-up text-center">
+  <ul>
+    <li> <i class="bi bi-house-door-fill"></i> <a class="d-none d-lg-inline-block" href="#">  Home</a></li>
+    <li> <i class="bi bi-reception-3"></i> <a class="d-none d-lg-inline-block" href="#">   Starts</a></li>
+    <li> <i class="bi bi-bar-chart-line-fill"></i> <a class="d-none d-lg-inline-block"href="">   Signals</a></li>
 
-<div class="aside debug"></div>
+  </ul>
+</div>
 
+<div class="aside-down ">
 
-<main class="debug">
-  <div class="ib-head-mai bg-primary debug"></div>
+  <i class="bi bi-nut-fill"></i>
+  <span> Admin</span>
+
+</div>
+
+</div>
+
+<main class="">
+  <div class="ib-head-mai bg-primary">
+    <div class="container-fluid h-100 ">
+      <div class="row h-100">
+        <div class="col-lg-7">
+          <div class="row h-100" >
+            <div class="col-10">
+              <h2 class="d-inline-block">Boolean</h2>
+              <a href=""><span class="badge rounded-pill ib-bg ">Piano blaze</span></a>
+              <div class="col">
+              <a href=""><span class="badge d-none d-lg-inline-block rounded-pill ib-bg ">3 app</span></a>
+             <a href=""> <span class="badge d-none d-lg-inline-block rounded-pill ib-bg ">Boolean mobile app</span></a>
+             <a href=""> <span class="badge d-none d-lg-inline-block rounded-pill ib-bg ">Boolean web app</span></a>
+              <a href=""><span class="badge d-none d-lg-inline-block rounded-pill ib-bg ">Boolean blog app</span></a>
+
+              <a href=""><span class="badge d-lg-none d-inline-block rounded-pill ib-bg ">3 app</span></a>
+
+                <a href=""><span><i class="bi bi-chevron-double-right d-lg-none d-inline-block"></i></span></a>
+
+                <a href=""><span class="badge d-lg-none d-inline-block rounded-pill ib-bg ">+ </span></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <div class="row h-100">
+            <div class="col-12"><p>Alunni affranti negli ultimi 30 minuti</p></div>
+            <div class="col-12">
+              <h2>12</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINE HEADER BLU  -->
 
 
     <div class="con_col">
     <div class="ib_col_left debug">
-      <div class="left_top debug">1</div>
+      <div class="left_top debug">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="col-4" scope="col debug">Nome</th>
+              <th class="col-1" scope="col">Data inizio</th>
+              <th class="col-1" scope="col">ROI</th>
+              <th class="col-1" scope="col">Stato</th>
+              <th class="col-1" scope="col">Azioni</th>
+
+            </tr>
+          </thead>
+          <tbody class="table-group-divider  ">
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>@mdo</td>
+
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+              <td>@mdo</td>
+
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+              <td>@mdo</td>
+
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
       <div class="left_bottom debug">2</div>
     </div>
 
