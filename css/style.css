@@ -1,0 +1,80 @@
+body{
+  font-family: 'Roboto', sans-serif;;
+}
+
+.ib-cont{
+  height: 100%;
+}
+
+.debug{
+  border: 1px solid black;
+}
+
+header{
+  height: 70px;
+}
+
+.ib-mai-cont{
+  display: flex;
+}
+
+.aside{
+  width: 10%;
+  height: calc(100vh - 70px );
+  background-color: #071E34;
+  color: white;
+} 
+
+main{
+  height: calc(100vh - 70px);
+  width: calc(100% - 10%);
+  overflow: auto;
+  
+}
+
+.ib-head-mai{
+  height: 120px;
+  width: 100%;
+}
+
+.con_col{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+  
+}
+
+.ib_col_left{
+height: 700px;
+width: 60%;
+display: flex;
+flex-direction: column;
+}
+
+.left_top{
+  width: 100%;
+  height: 60%;
+}
+
+.left_bottom{
+  width: 100%;
+  height: 40%;
+}
+
+.ib_col_right{
+  height: 700px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right_top{
+ width: 100%;
+ height: 35%;
+}
+
+.right_bottom{
+  width: 100%;
+  height: 65%;
+}

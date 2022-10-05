@@ -1,0 +1,34 @@
+@media screen and (max-width:780px) {
+
+
+.ib-head-mai{
+    height: 175px;
+  }
+
+.con_col{
+  display: flex;
+  flex-direction: column;
+}
+
+.ib_col_left{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.left_top{
+  margin-bottom: 20px;
+}
+
+.left_bottom{
+
+}
+
+.ib_col_right{
+  width: 100%;
+}
+
+.right_top{
+  margin-bottom: 20px;
+}
+  
+}
