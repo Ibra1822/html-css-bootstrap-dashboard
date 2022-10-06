@@ -37,25 +37,28 @@
         <img class="ib-logo d-none d-lg-block" src="img/logo.svg" alt="">
         <img class="ib-mobile-logo d-lg-none text-center" src="img/mobile-logo.png" alt="">
       </div>
-      <div class="col-8  ">
+      <div class="col-8  d-flex align-items-center">
 
-        <div class="input-group input-group-sm mb-3 ib-se ">
+        <div class="input-group input-group-sm  d-flex   ib-serch">
           <span class="input-group-text" id="inputGroup-sizing-sm"><i class="bi bi-search"></i></span>
           <input type="text" placeholder="Prova a cercaare 'Quanti ragazzi di classe 75 mangiano la pizza?'" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
         </div>
         
       </div>
-      <div class="col-2 d-flex align-items-center">
-        <div class="in me-4 d-none d-lg-block">
+      <div class="col-2 d-flex h-100 ">
+        <div class="in me-4 d-none d-lg-flex">
 
-         <a href=""><i class="bi bi-list me-1"></i></a> 
-         <a href=""><i class="bi bi-question-circle-fill me-2"></i></a> 
-         <a href=""><i class="bi bi-three-dots-vertical me-2"></i></a> 
+          <ul class="d-none d-lg-flex ">
+            <li>  <a href=""><i class="bi bi-list me-1"></i></a> </li>
+            <li>  <a href=""><i class="bi bi-question-circle-fill me-2"></i></a>  </li>
+            <li> <a href=""><i class="bi bi-three-dots-vertical me-2"></i></a>  </li>
+
+          </ul>
 
         </div>
 
-        <div class="dropdown">
-          <button class="btn btn-secondary bg-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="dropdown ib-con-camp h-100">
+          <button class="btn btn-secondary bg-light dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bi bi-bell-fill ib-camp "></i>
           </button>
           <ul class="dropdown-menu">
@@ -65,7 +68,6 @@
           </ul>
         </div>
 
-       <a href=""> </a>
 
       </div>
     </div>
@@ -78,7 +80,7 @@
 
 <div class="ib-mai-cont">
 
-<div class="aside debug">
+<div class="aside  debug">
   
     <ul class="ib-act">
       <li><a href=""><i class="bi bi-house-door-fill d-lg-none "></i> </a></li>
@@ -98,8 +100,8 @@
 
 <div class="aside-down ">
 
-  <i class="bi bi-nut-fill"></i>
-  <span> Admin</span>
+  <a href=""><i class="bi bi-nut-fill"></i>
+  <span> Admin</span></a>
 
 </div>
 
@@ -161,15 +163,123 @@
 
           <h2>Prossime classi</h2>
 
-          <div class="con-piu"><i class="bi bi-plus"></i></div>
+          <button class="btn btn-primary ib-btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <i class="bi bi-plus ib-btn"></i>
+          </button>
+
+          <div class="offcanvas offcanvas-end ib-off" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">FORM</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-6 ">
+                    
+                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                    <div class="input-group ib-mail">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                      <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+                    </div>
+              
+                  </div>
+                  <div class="col-6 ">
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </div>
+                  <div class="row-fluid">
+                    <div class="col">
+                      <label for="exampleInputPassword1" class="form-label mb-2">Indirizzo</label>
+                      <div class="input-group ib-mail">
+                        <input type="text" class="form-control" placeholder="" aria-label="Email" aria-describedby="basic-addon1">
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+
+                      <label for="exampleInputPassword1" class="form-label">Città</label>
+                      <div class="input-group ib-mail">
+                        <input type="text" class="form-control" placeholder="" aria-label="City" aria-describedby="basic-addon1">
+                      </div>
+
+                    </div>
+                    <div class="col-3">
+                      <label for="exampleInputPassword1" class="form-label">Paese</label>
+
+                      <div class="input-group mb-3">
+                        <select class="form-select" id="inputGroupSelect02">
+                          <option selected>Scegli</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-3">
+
+                      <label for="exampleInputPassword1" class="form-label">CAP</label>
+                      <div class="input-group ib-mail">
+                        <input type="text" class="form-control" placeholder="" aria-label="CAP" aria-describedby="basic-addon1">
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+                      <div class="col-12">
+                      <label for="exampleInputPassword1" class="form-label">Foto</label>
+
+                        <div class="input-group mb-3">
+                          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                          <select class="form-select" id="inputGroupSelect01">
+                            <option selected>Sfoglia</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+
+                      <div class="col">
+                        <input class="m-3" type="checkbox" name="" id="">Seleziona per proseguire
+                      </div>
+
+                      <div class="row">
+                        <div class="col">
+
+                          <button type="button" class="btn btn-primary">Salva</button>
+
+                          <button type="button" class="btn btn-warning">Svuota</button>
+
+
+                        </div>
+                      </div>
+
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
           
         </div>
 
         <div class="tb-con">
-        <table class="table table-hover ib-tb">
-          <thead>
+        <table class="table table-hover  ib-tb">
+          <thead class="">
             <tr>
-              <th class="col-2 col-lg-4 "scope="col">Nome</th>
+              <th class="col-2 col-lg-4 ib-tbl-nm "scope="col">Nome</th>
               <th class="col-2 col-lg-2 ib-none-m text-center prova-tbl "scope="col">Data inizio</th>
               <th class="col-1 col-lg-1 ib-none-m text-center prova-tbl-roi"scope="col">ROI</th>
               <th class="col-1 col-lg-1 text-center " scope="col">Stato</th>
@@ -387,7 +497,7 @@
   
           </div>
           
-          <ul class="list-group">
+          <ul class="list-group m-1">
             <li class="list-group-item">
               <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
               <label class="form-check-label" for="firstCheckbox">Avvisare gli alunni</label>

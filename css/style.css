@@ -16,27 +16,53 @@ header{
 }
 
 .ib-logo{
-  width: 80%;;
+  width: 80%;
 }
 .ib-mobile-logo{
   width: 70px;
   margin: auto;
+}
+
+.ib-serch{
+  display: flex;
+  vertical-align: middle;
+}
+
+.ib-serch .form-control{
+  background-color: #E5E5E5;
+  border: 0px;
+
+}
+
+.input-group-text{
+  background-color: #E5E5E5;
+  border: 0px ;
+
+}
+
+.in ul{
+  list-style: none;
+  display: flex;
   line-height: 70px;
+  justify-content: flex-start;
+  padding: 0;
 }
-
- .ib-se{
- margin: 20px auto;
-}
-
 
 .in i{
-  font-size: 23px;
+  font-size: 20px;
   color: darkgray;
+  margin: 10px;
 }
 
+.ib-con-camp{
+  display: flex;
+  align-items: center;
+   justify-content: flex-start;
+}
 .ib-camp{
 color: #F58F01;
-font-size: 24px;
+font-size: 25px;
+align-self: center;
 }
 
 .btn-secondary{
@@ -58,7 +84,15 @@ font-size: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  background-image: url(../img/sidebar-bg.png);
 } 
+
+.aside .aside-up, 
+.aside-down{
+  margin-top: -17px;
+
+}
 
 .aside .aside-up a i{
   color: #ffff;
@@ -92,6 +126,10 @@ color: #ffff;
   font-weight: 200;
 }
 
+.aside ul li:hover{
+  background-color: darkgray;
+}
+
 .aside-down{
   width: 100%;
   height: 100%;
@@ -103,6 +141,10 @@ color: #ffff;
 
 .aside-down span{
   font-size: 0.9rem;
+}
+.aside-down a{
+  color: #ffff;
+  text-decoration: none;
 }
 
 .aside-down i{
@@ -169,7 +211,33 @@ margin-top: 10px;
   background-color: #F7F7F7;
   border-bottom: 1px solid darkgray;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
   
+}
+
+.btn-primary.ib-btn{ 
+  background-color: #ffff;
+  font-size: 40px;
+  color: #396EFD;
+  padding: 0 10px;
+
+
+}
+
+
+
+.offcanvas{
+  width: 1000px !important;
+} 
+
+
+.to-l-tit .ib-plus{
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 auto;
+  color: #396EFD;
+  border: 1px solid #396EFD;
 }
 
 .ib-align{
@@ -196,19 +264,28 @@ margin-top: 10px;
   width: 40px;
   margin: 0 10px;
   border: 1px solid darkgray;
+  border-radius: 5px;
   text-align: center;
   line-height: 40px;
   color: gainsboro;
   cursor: pointer;
+
 }
+
+.ib-tbl-nm{
+  width: 30%;
+}
+
+.ib-mail{
+  vertical-align: middle;
+}
+
 
 .ib-pen:hover{
 
   background-color: lightgrey;
 
 }
-
-
 .ib-las{
   justify-content: center;
 }
