@@ -2,7 +2,6 @@ body{
   font-family: 'Roboto', sans-serif;;
 }
 
-
 .ib-cont{
   height: 100%;
 }
@@ -19,7 +18,7 @@ header{
   width: 80%;
 }
 .ib-mobile-logo{
-  width: 70px;
+  width: 60%;
   margin: auto;
 }
 
@@ -91,7 +90,6 @@ align-self: center;
 .aside .aside-up, 
 .aside-down{
   margin-top: -17px;
-
 }
 
 .aside .aside-up a i{
@@ -103,14 +101,11 @@ align-self: center;
   padding: 0;
 }
 
-.aside .aside-up ul li i{
-  font-size: 22px;
-  vertical-align: middle;
-}
-
 
 .aside .aside-up ul li i{
   font-size: 30px;
+  vertical-align: middle;
+
 }
 
 .aside ul {
@@ -136,7 +131,6 @@ color: #ffff;
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  margin-bottom: 10px;
 }
 
 .aside-down span{
@@ -145,6 +139,10 @@ color: #ffff;
 .aside-down a{
   color: #ffff;
   text-decoration: none;
+}
+
+.aside-down a:hover{
+  background-color: darkgray;
 }
 
 .aside-down i{
@@ -213,6 +211,7 @@ margin-top: 10px;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
+  border-radius: 10px;
   
 }
 
@@ -221,14 +220,11 @@ margin-top: 10px;
   font-size: 40px;
   color: #396EFD;
   padding: 0 10px;
-
-
 }
 
 
-
 .offcanvas{
-  width: 1000px !important;
+  width: 70% !important;
 } 
 
 

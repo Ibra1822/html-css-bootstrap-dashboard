@@ -31,10 +31,11 @@
   display: none;
 }
 
+.ib-act:hover{
+  background-color: transparent;
+}
 
 
-
-  
 
 }
 
@@ -49,6 +50,10 @@
     display: none;
   }
 
+  .offcanvas{
+    width: 90% !important;
+  } 
+
 
 }
 
@@ -57,6 +62,11 @@
   .prova-tbl-roi{
     display: none;
   }
+
+  .ib-act:hover{
+    background-color: none;
+  }
+
 
 
 
