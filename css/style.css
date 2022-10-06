@@ -70,8 +70,6 @@ align-self: center;
   text-align: center;
 }
 
-
-
 /* FINE HEADER  */
 
 .aside{
@@ -162,7 +160,10 @@ color: #ffff;
   color: #ffff;
   font-weight: 100;
   margin-top: 5px;
+}
 
+.ib-left-blue-h{
+  width: 90%;
 }
 
 .ib-head-mai p{

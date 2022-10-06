@@ -21,8 +21,6 @@
     height: 200px;
   }
 
-  
-
   .aside-down span{
     display: none;
   }
@@ -31,13 +29,19 @@
   display: none;
 }
 
-.ib-act:hover{
-  background-color: transparent;
+  .aside-down a:hover{
+    background-color: rgba(0, 0, 0, 0);
+
+  }
+  
+  .aside ul li:hover{
+    background-color: rgba(0, 0, 0, 0);
+
+  }
+
 }
 
 
-
-}
 
 
 @media screen and (max-width:768px) {
@@ -63,13 +67,8 @@
     display: none;
   }
 
-  .ib-act:hover{
-    background-color: none;
-  }
-
-
-
-
-
   
+
+}
+
 }
