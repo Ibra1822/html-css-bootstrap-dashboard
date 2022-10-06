@@ -41,6 +41,8 @@ font-size: 24px;
 
 .btn-secondary{
   border: 0px;
+  padding: 0;
+  text-align: center;
 }
 
 
@@ -149,14 +151,11 @@ main{
   overflow: auto;
 }
 
-
-
+/* MAIN  */
 
 .ib-to-lef{
 margin-top: 10px;
 }
-
-
 
 .con-tbl{
   height: 100%;
@@ -188,20 +187,36 @@ margin-top: 10px;
   width: 100%;
 }
 
-.ib-pen a{
+.ib-pen i{
   color: darkgray;
 }
 
 .ib-pen{
-  height: 40px;
+  height: 40px; 
   width: 40px;
   margin: 0 10px;
   border: 1px solid darkgray;
   text-align: center;
   line-height: 40px;
-  color: darkgray;
-  
+  color: gainsboro;
+  cursor: pointer;
 }
+
+.ib-pen:hover{
+
+  background-color: lightgrey;
+
+}
+
+
+.ib-las{
+  justify-content: center;
+}
+
+.text-bg-warning{
+  color: white !important;
+}
+
 
 
 
@@ -215,6 +230,7 @@ width: 100%;
 height: 100%;
 border: 1px solid darkgray;
 border-radius: 10px;
+padding-bottom: 3px;
 }
 
 .faq-title{
@@ -222,15 +238,12 @@ border-radius: 10px;
   width: 100%;
   background-color: #F7F7F7;
   margin-bottom: 20px;
-  border: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
   border-radius: 10px;
   padding: 10px;
 }
 
-
-  
-
-
+/* FINE FAQ  */
 
 .ib-to-r{
   margin-bottom: 20px;
@@ -241,7 +254,6 @@ border-radius: 10px;
   border-radius: 10px;
   margin: 10px auto;
   padding: 5px;
-  height: 100%;
   width: 100%;
 }
 
@@ -252,17 +264,6 @@ border-radius: 10px;
   margin-bottom: 30px;
 }
 
-.chack-cont{
-  height: 30px;
-  width: 99%;
-  margin: 10px;
-  padding: 25px 0px;
-  border: 1px solid darkgray;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  color: darkgray;
-}
 
 .chack-cont input{
   margin: 10px;
@@ -285,10 +286,6 @@ border-radius: 10px;
   border-radius: 10px;
 
 }
-
-
-
-
 
 
 

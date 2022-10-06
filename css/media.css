@@ -17,14 +17,23 @@
     display: none;
   }
 
-  th .ib-none-m{
-    display: block !important;
+  .ib-head-mai{
+    height: 200px;
   }
+
+  
 
   .aside-down span{
     display: none;
-
   }
+
+.prova-tbl{
+  display: none;
+}
+
+
+
+
   
 
 }
@@ -39,6 +48,18 @@
   th .ib-none-m{
     display: none;
   }
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+  .prova-tbl-roi{
+    display: none;
+  }
+
+
+
 
   
 }
