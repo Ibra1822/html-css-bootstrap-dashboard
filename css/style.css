@@ -228,6 +228,10 @@ margin-top: 10px;
   width: 70% !important;
 } 
 
+.ib-war{
+  color: white;
+}
+
 
 .to-l-tit .ib-plus{
   font-size: 40px;
@@ -291,7 +295,9 @@ margin-top: 10px;
   color: white !important;
 }
 
-
+ib-war{
+  color: white;
+}
 
 
 /* FINE TABELLA  */
@@ -360,10 +366,5 @@ padding-bottom: 3px;
   border-radius: 10px;
 
 }
-
-
-
-
-
 
 /* FINE MAIN  */
